@@ -111,6 +111,7 @@ plt.title("Weights of Layer 1")
 plt.show()
 
 sns.heatmap(myneuralNetwork.w2, annot=True, cmap="coolwarm")
+plt.title("Weights of Layer 2")
 plt.show()
 
 
