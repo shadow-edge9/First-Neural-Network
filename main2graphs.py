@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+e#!/usr/bin/env python3
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -84,7 +84,7 @@ myneuralNetwork.predictOutput()
 
 #################################################################
 print("\033[93m= = = = = = T R A I N I N G    D Y N A M I C S = = = = = =\033[0m\n")
-loss_df = pd.read_csv("SumSquaredLossList.csv", header=None, names=["Epoch Loss"])
+loss_df = pd.read_csv("SumSquaredLossList.csv", delimiter=',', header=None, names=["Epoch Loss"])
 loss_df["Epoch"] = loss_df.index
 
 print("= = = = = L O S S   C U R V E = = = = =")
