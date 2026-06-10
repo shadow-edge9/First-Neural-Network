@@ -53,7 +53,7 @@ pip install numpy pandas matplotlib seaborn
 
 To clone this repository:
 ```bash
-git clone [https://github.com/shadow-edge9/First-Neural-Network.git](https://github.com/shadow-edge9/First-Neural-Network.git)
+git clone https://github.com/shadow-edge9/First-Neural-Network
 cd First-Neural-Network
 python3 main2graphs.py
 ```
