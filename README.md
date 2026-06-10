@@ -38,6 +38,9 @@ XNOR Gates are used in a number of application in both software and hardware, so
    - Weights of Layer 1
    - Weights of Layer 2
 
+> The preset training Epochs is 1000. Underneath that is a comment where you can run 10000 epochs and see what happens. Alternately, once you've downloaded it you can run any number epochs.
+> For this particular model when I ran it at 50000 epochs it began to overfit and was evident in the weights graphs.
+
 ## Prerequistes
 This project uses Python 3.
 To run it, you must have these modules on your venv or system:
