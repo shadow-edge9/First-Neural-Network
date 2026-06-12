@@ -61,6 +61,8 @@ cd First-Neural-Network
 python3 main2graphs.py
 ```
 
+## Usage
+This was a tutorial I followed from a book. You can do whatever you want with it :)
 
 
 
